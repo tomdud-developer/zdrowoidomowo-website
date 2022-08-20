@@ -1,0 +1,84 @@
+/************ Default Css ************/
+/* courgette-regular - latin */
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Courgette'),
+       url('./fonts/Courgette-Regular.ttf') format('truetype')
+}
+
+.font-face-gm {
+  font-family: 'Courgette', regular;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+  
+  body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #121212 !important;
+    color: #fff !important;
+    font-family: 'Courgette';
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+  }
+  
+  p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  align-center {
+    align-items: center;
+  }
+
+
+
+  /* offer css's */
+
+  .offer {
+    padding: 50px 0 100px 0;
+    margin-top: 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .offer h1 {
+    text-align: center;
+  }
+  
+  .offer-img {
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 10px;
+
+  }
+  
