@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from './components/NavBar';
+import { Link, animateScroll as scroll } from "react-scroll";
+import Button from 'react-bootstrap/Button';
+import Top from './components/Top';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h2>Strona internetowa Zdrowo i Domowo</h2>
-          Mariusz Rutkowski
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Top />
     </div>
+
   );
 }
 
