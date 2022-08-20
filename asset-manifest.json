@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/zdrowoidomowo-website/static/css/main.4de0fa12.css",
-    "main.js": "/zdrowoidomowo-website/static/js/main.eff36aeb.js",
+    "main.css": "/zdrowoidomowo-website/static/css/main.d013f471.css",
+    "main.js": "/zdrowoidomowo-website/static/js/main.228f16f1.js",
     "static/js/787.d325af1e.chunk.js": "/zdrowoidomowo-website/static/js/787.d325af1e.chunk.js",
     "static/media/image2.jpg": "/zdrowoidomowo-website/static/media/image2.e900cdd08f66df1dc7a5.jpg",
+    "static/media/offer-image1.jpg": "/zdrowoidomowo-website/static/media/offer-image1.2807dc12e1476c2606ad.jpg",
     "static/media/image1.jpg": "/zdrowoidomowo-website/static/media/image1.89e0a9727435e1463bca.jpg",
+    "static/media/offer-image2.jpg": "/zdrowoidomowo-website/static/media/offer-image2.0bb126abee98545f1eb6.jpg",
+    "static/media/Courgette-Regular.ttf": "/zdrowoidomowo-website/static/media/Courgette-Regular.f99d9948a486f6270149.ttf",
     "index.html": "/zdrowoidomowo-website/index.html",
-    "main.4de0fa12.css.map": "/zdrowoidomowo-website/static/css/main.4de0fa12.css.map",
-    "main.eff36aeb.js.map": "/zdrowoidomowo-website/static/js/main.eff36aeb.js.map",
+    "main.d013f471.css.map": "/zdrowoidomowo-website/static/css/main.d013f471.css.map",
+    "main.228f16f1.js.map": "/zdrowoidomowo-website/static/js/main.228f16f1.js.map",
     "787.d325af1e.chunk.js.map": "/zdrowoidomowo-website/static/js/787.d325af1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4de0fa12.css",
-    "static/js/main.eff36aeb.js"
+    "static/css/main.d013f471.css",
+    "static/js/main.228f16f1.js"
   ]
 }
