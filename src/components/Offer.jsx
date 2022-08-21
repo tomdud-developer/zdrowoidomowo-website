@@ -5,7 +5,7 @@ import image2 from './images/offer-image2.jpg'
 
 export default function Offer() {
   return (
-    <section className="offer" id="home">
+    <section className="offer">
         <Container>
             <Row className="align-center">
                 <Col><h1>Nasza oferta obejmuje</h1></Col>
@@ -19,7 +19,7 @@ export default function Offer() {
                     />
                 </Col>
                 <Col>
-                    <h3>Dla firm i instytucji</h3>
+                    <h3>Katering dla firm i instytucji</h3>
                     <h5>Obiady Domowe</h5>
                 </Col>
             </Row>

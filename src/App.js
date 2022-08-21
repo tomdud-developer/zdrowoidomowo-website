@@ -6,21 +6,20 @@ import PartyGallery from './components/PartyGallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Link, animateScroll as scroll } from "react-scroll";
-import Button from 'react-bootstrap/Button';
 import './fonts/Courgette-Regular.ttf';
 import './app.css';
-import { Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="font-face-gm">
 
         <NavBar />
-        <Top />
-        <Offer />
-        <CakeGallery />
-        <PartyGallery />
-        <Contact />
+        <div className="top-link"><Top /></div>
+        <div className="offer-link"><Offer /></div>
+        <div className="cake-gallery-link"><CakeGallery /></div>
+        <div className="party-gallery-link"><PartyGallery /></div>
+        <div className="contact-link"><Contact /></div>
         <Footer />
       
     </div>

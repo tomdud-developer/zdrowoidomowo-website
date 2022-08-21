@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>      
+    <div className='footer'>      
         <h6>
             {'Copyright © '}
             Zdrowo i Domowo Mariusz 
